@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/pasman.png</file>
+        <file>res/appico.ico</file>
+        <file>res/icon.png</file>
+    </qresource>
+</RCC>
