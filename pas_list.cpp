@@ -147,13 +147,12 @@ bool PasList::eventFilter(QObject *obj, QEvent *event)
     if (event->type() == QEvent::KeyPress) {
         QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
 
-        // Check if Ctrl+C was pressed
+        // Ctrl + C do kopiowania hasła
         if (keyEvent->matches(QKeySequence::Copy)) {
             copyPassword();
-            return true; // Event is handled
+            return true;
         }
     }
-    // Pass the event on to the parent class
     return QWidget::eventFilter(obj, event);
 }
 
