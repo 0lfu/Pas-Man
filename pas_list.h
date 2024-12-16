@@ -19,7 +19,6 @@ public:
 
     ~PasList();
 protected:
-    // Add the eventFilter declaration here
     bool eventFilter(QObject *obj, QEvent *event) override;
 public slots:
     void loadData();
