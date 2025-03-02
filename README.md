@@ -1,63 +1,69 @@
-# PasMan - Password Manager
+# PasMan - Password Manager  
 
-PasMan to desktopowy menedżer haseł opracowany jako projekt studencki. Aplikacja umożliwia bezpieczne przechowywanie, organizowanie oraz generowanie haseł. Dzięki wykorzystaniu szyfrowania zapewnia wysoki poziom ochrony przechowywanych danych, a jednocześnie jest intuicyjna i prosta w obsłudze.
+PasMan is a desktop password manager developed as a student project. The application allows users to securely store, organize, and generate passwords. By utilizing encryption, it provides a high level of protection for stored data while remaining intuitive and easy to use.  
 
-## Funkcje
+## Features  
 
-PasMan oferuje szeroki zakres funkcjonalności dla zarządzania hasłami:
-- **Logowanie i zarządzanie użytkownikiem**: Aplikacja obsługuje jednego użytkownika, który po początkowej rejestracji korzysta z hasła dostępu do menedżera haseł.
-- **Wyświetlanie zapisanych haseł**: Użytkownik ma możliwość przeglądania zapisanych haseł oraz ich szczegółów.
-- **Dodawanie nowych haseł**: Możliwość dodawania nowych wpisów, które mogą zawierać informacje takie jak: nazwa, username, hasło, kategoria, URL oraz notatki.
-- **Edycja i usuwanie haseł**: Użytkownik może modyfikować i usuwać zapisane hasła.
-- **Generowanie haseł**: Aplikacja zawiera generator, który umożliwia tworzenie silnych haseł.
-- **Sprawdzanie siły hasła**: Specjalny dialog pozwala na sprawdzenie siły hasła, a także oferuje szacunkowy czas na złamanie hasła metodą brute-force oraz długość zaszyfrowanego hasła w bitach.
-- **Bezpieczne szyfrowanie**: Wszystkie dane są zaszyfrowane, aby zapewnić bezpieczeństwo użytkownika.
+PasMan offers a wide range of functionalities for password management:  
+- **User login and management**: The application supports a single user who, after initial registration, uses a password to access the password manager.  
+- **Viewing saved passwords**: Users can browse saved passwords and their details.  
+- **Adding new passwords**: Users can add new entries, which may include information such as name, username, password, category, URL, and notes.  
+- **Editing and deleting passwords**: Users can modify and delete saved passwords.  
+- **Password generation**: The application includes a generator that allows users to create strong passwords.  
+- **Password strength check**: A special dialog enables users to check password strength and provides an estimated time required to crack the password using brute-force methods, as well as the encrypted password length in bits.  
+- **Secure encryption**: All data is encrypted to ensure user security.  
 
-## Technologie
+## Screenshots
+![image](https://github.com/user-attachments/assets/c7a5d6fa-9edb-408f-a3dc-f13673c450c6)
+![{2E87A728-0028-49F5-BC4F-22902E6D8064}](https://github.com/user-attachments/assets/f289de43-1741-4496-84d9-dfb7b162f310)
+![image](https://github.com/user-attachments/assets/578c16fe-b856-4d97-9e21-cb8c989d5f3d)
 
-PasMan korzysta z silnych algorytmów szyfrowania, takich jak AES-256, które gwarantują ochronę przechowywanych haseł i innych wrażliwych danych użytkownika. Każdy wpis jest hashowany i przechowywany w bezpiecznym formacie, co zapobiega nieautoryzowanemu dostępowi do informacji.
+## Technologies  
 
-## Wymagania
+PasMan utilizes strong encryption algorithms such as AES-256, ensuring the protection of stored passwords and other sensitive user data. Each entry is hashed and stored in a secure format, preventing unauthorized access to information.  
 
-Aplikacja została opracowana z uwzględnieniem kluczowych wymagań funkcjonalnych i pozafunkcjonalnych:
+## Requirements  
 
-### Wymagania funkcjonalne
-- **FR.001**: Logowanie użytkownika (wysoki priorytet)
-- **FR.002**: Zarządzanie hasłami, tj. wyświetlanie, dodawanie, edytowanie oraz usuwanie haseł
-- **FR.003**: Generowanie silnych haseł (średni priorytet)
-- **FR.004**: Sprawdzanie siły haseł oraz udzielanie informacji o czasie złamania metodą brute-force
-- **FR.005**: Szyfrowanie i przechowywanie haseł w formacie zabezpieczonym
+The application has been developed with key functional and non-functional requirements in mind.  
 
-### Wymagania pozafunkcjonalne
-- **PF.001**: Bezpieczeństwo – wykorzystanie szyfrowania AES-256
-- **PF.002**: Wydajność – płynne działanie bez opóźnień
-- **PF.003**: Intuicyjny interfejs użytkownika
+### Functional Requirements  
+- **FR.001**: User login (high priority)  
+- **FR.002**: Password management, including viewing, adding, editing, and deleting passwords  
+- **FR.003**: Generation of strong passwords (medium priority)  
+- **FR.004**: Password strength evaluation and estimation of brute-force cracking time  
+- **FR.005**: Encryption and secure storage of passwords  
 
-## Instalacja i uruchomienie
+### Non-Functional Requirements  
+- **NF.001**: Security – use of AES-256 encryption  
+- **NF.002**: Performance – smooth operation without delays  
+- **NF.003**: Intuitive user interface  
 
-Aby uruchomić projekt PasMan:
+## Installation and Execution  
 
-1. Pobierz plik `projekt.rar` i rozpakuj wszystkie pliki.
-2. Zdekompresowany folder zawiera pełen zestaw plików potrzebnych do uruchomienia aplikacji oraz dokumentację.
-3. Uruchom aplikację zgodnie z instrukcjami w dokumentacji zawartej w `projekt.rar`.
+To run the PasMan project:  
 
-## Użycie
+1. Download the `projekt.rar` file and extract all files.  
+2. The extracted folder contains all necessary files to run the application, along with documentation.  
+3. Launch the application following the instructions provided in the documentation inside `projekt.rar`.  
 
-Po uruchomieniu aplikacji użytkownik może:
-1. Zalogować się przy użyciu utworzonego wcześniej hasła.
-2. Przeglądać zapisane hasła, dodawać nowe, edytować istniejące oraz usuwać niepotrzebne.
-3. Wygenerować silne hasło, dostosowane do swoich potrzeb.
-4. Przeanalizować siłę dowolnego hasła, uzyskując dodatkowe informacje o jego bezpieczeństwie.
+## Usage  
 
-## Bezpieczeństwo i szyfrowanie
+After launching the application, the user can:  
 
-Wszystkie dane w PasMan są szyfrowane za pomocą algorytmu AES-256, co zapewnia wysoki poziom ochrony danych użytkownika. Każde zapisane hasło jest hashowane, aby uniemożliwić dostęp osobom niepowołanym. Dzięki takiemu podejściu PasMan spełnia najwyższe standardy bezpieczeństwa i pozwala użytkownikom na wygodne zarządzanie swoimi hasłami w jednym miejscu.
+1. Log in using the previously created password.  
+2. Browse saved passwords, add new ones, edit existing entries, and delete unnecessary ones.  
+3. Generate strong passwords tailored to their needs.  
+4. Analyze the strength of any password and obtain additional security information.  
 
-## Autor
+## Security and Encryption  
 
-Autorem jest Olaf Wojda 160203.
-Projekt PasMan został opracowany jako część pracy studenckiej.
+All data in PasMan is encrypted using the AES-256 algorithm, ensuring a high level of data protection for users. Each stored password is hashed to prevent unauthorized access. Thanks to this approach, PasMan meets the highest security standards and allows users to conveniently manage their passwords in one place.  
 
-## Licencja
+## Author  
 
-Projekt PasMan jest dostępny wyłącznie do użytku edukacyjnego za zgodą autora.
+The author is Olaf Wojda 160203.  
+PasMan was developed as part of a student project.  
+
+## License  
+
+The PasMan project is available exclusively for educational use with the author's consent.  
